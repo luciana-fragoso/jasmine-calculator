@@ -1,0 +1,145 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF !important;
+}
+
+.main {
+    padding:10px;
+    margin-top: 50px !important;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #808080;
+    border: 10px solid #91c2ed;
+	  background-color: #91c2ed;
+    display:grid;
+    max-width:400px;
+    height:440px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:0.1px;
+    grid-template-areas: 
+      "top top top top"
+      "bottom bottom bottom bottom"
+      "clear clear del div"
+      "seven eight nine multiply"
+      "four five six plus"
+      "one two three minus"
+      "zero dot equal equal";
+}
+
+
+#top{
+    grid-area: top;
+    color: #800080;
+    text-align:right;
+    border: 0.8px solid #000000;
+    background: #efefef;
+    font-size:18px;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-top: 2px;
+    border-radius: 8px;
+ 
+  }
+
+
+#bottom{
+    grid-area: bottom;
+    color: #800080;
+    text-align:right;
+    background-color: #efefef;
+    border: 0.8px solid #000000;
+    font-size:18px;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-top: 2px;
+    border-radius: 8px;
+  }
+
+  button {
+    border-radius: 8px !important;
+    border: 1px solid #808080;
+    margin-right: 2px !important;
+    margin-top: 5px !important;
+    background-color: #D7D7D7;
+ 
+  }
+
+  #del
+  {
+    grid-area:del;
+    background: #D8BFD8;  
+  }
+  #clear
+  {
+    grid-area:clear;
+    background: #a3d3c5;  
+  }
+
+  #divide
+  {
+  grid-area: div;
+  }
+  #multiply
+  {
+  grid-area: mult;
+  }
+  #plus{
+  grid-area:plus;
+  }
+  #minus{
+  grid-area:minus;
+  }
+  #seven
+  {
+  grid-area:seven;
+  }
+  #eight
+  {
+  grid-area:eight;
+  }
+  #nine
+  {
+  grid-area:nine;
+  }
+  #four
+  {
+  grid-area:four;
+  }
+  #five
+  {
+  grid-area:five;
+  }
+  #three
+  {
+  grid-area:three;
+  }
+  #two
+  {
+  grid-area:two;
+  }
+  #one
+  {
+  grid-area:one;
+  }
+  #dot
+  {
+  grid-area:dot;
+  }
+  #zero {
+  grid-area:zero;
+  }
+  #equal{
+  grid-area:equal;
+  background-color: #FFE4C4;
+  }
+  #six{
+  grid-area:six;
+  }
+  span{
+  vertical-align:middle;
+  }
+  
